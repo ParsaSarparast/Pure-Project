@@ -1,0 +1,57 @@
+@media only screen and (max-width: 600px) {
+.divlogo{
+    top: 8px;
+    display: flex;
+    left: 40%;
+}
+.imglogo{
+    width: 100px;
+    height: 80px;
+}
+.divsearch{
+    top: 120px;
+    left: 22%;
+}
+.inputsearch{
+    width: 250px;
+    height: 25px;
+}
+.divsearchicon{
+    left: 258px;
+    top: -7px;
+}
+.searchicon{
+    width: 40px;
+}
+.divsocialmedia{
+    margin-left: 75%;
+}
+.telegramicon, .discordicon, .instagramicon {
+    width: 25px;
+
+}
+.navli{
+    font-size: 15px;
+    margin-left: 18px;
+}
+.section1{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    height: 550px;
+}
+.div1section1, .div2section1, .div3section1 {
+    width: 400px;
+    height: 150px;
+}
+.qualityicon, .costicon, .fasticon{
+    width: 50px;
+}
+.p1, .p2, .p3, .p4, .p5, .p6{
+    font-size: 15px;
+}
+.div1section1:hover, .div2section1:hover, .div3section1:hover{
+    transform: scale(1.1);
+}
+}
